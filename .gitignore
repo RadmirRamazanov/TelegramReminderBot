@@ -1,0 +1,40 @@
+.env
+
+# --- Файл базы данных SQLite ---
+data/
+*.db
+*.sqlite3
+
+# --- Кэш Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# --- Виртуальное окружение Python ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Артефакты сборки ---
+build/
+dist/
+*.egg-info/
+
+# --- Отчёты тестов и покрытия ---
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- IDE и редакторы ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# --- Логи ---
+*.log
+logs/
